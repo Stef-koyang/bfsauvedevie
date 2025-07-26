@@ -12,5 +12,5 @@ export default function AudioAlert({ play }) {
     }
   }, [play]);
 
-  return <audio ref={audioRef} src="/alert.mp3" preload="auto" />;
+  return <audio ref={audioRef} src="/public/alert.mp3" preload="auto" />;
 }
